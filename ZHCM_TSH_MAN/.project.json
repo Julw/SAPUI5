@@ -1,0 +1,56 @@
+{
+  "generation": [
+    {
+      "templateId": "fioriexttemplate.extensionProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 30 Jul 2015 08:22:49 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollerhook",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 30 Jul 2015 08:39:30 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "sap.watt.uitools.ide.web",
+    "com.sap.webide.hybrid.cordova"
+  ],
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/HCM_TIMESHEET_MAN_SRV",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "extensibility": {
+    "controllers": {
+      "Main": "HCM_TSH_MAN%2fMain.controller.js",
+      "S3": "HCM_TSH_MAN%2fview%2fS3.controller.js",
+      "S31": "HCM_TSH_MAN%2fview%2fS31.controller.js"
+    },
+    "views": {
+      "Main": "HCM_TSH_MAN%2fMain.view.xml",
+      "S3": "HCM_TSH_MAN%2fview%2fS3.view.xml",
+      "S31": "HCM_TSH_MAN%2fview%2fS31.view.xml"
+    },
+    "fragments": {},
+    "type": "abaprep",
+    "component": "HCM_TSH_MAN%2fComponent.js",
+    "configuration": "HCM_TSH_MAN%2fConfiguration.js",
+    "namespace": "hcm.mytimesheet",
+    "resourceBundle": "i18n/i18n.properties",
+    "system": {
+      "name": "Travis"
+    },
+    "BSPName": "HCM_TSH_MAN",
+    "parenturl": "/destinations/Travis/sap/bc/ui5_ui5/sap/HCM_TSH_MAN"
+  }
+}
